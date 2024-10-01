@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    text-transform: capitalize;
+    font-style: normal;
+    transition: all 1s;
+}
+ /* common */
+ .checked {  
+    color : yellow;  
+    font-size : 16px;  
+}  
+.unchecked {  
+    font-size : 16px;  
+}
+.ig{
+    background-image: url(/images/choosing-bg.jpg);
+    color: white;
+}
+.rating{
+    background-color: rgba(255, 255, 255, 0.248);
+    padding: 10px;
+    /* width: 50; */
+    /* font-size:2vw; */
+}
+.clo{
+    color: gold;
+}
+/* .font{
+    font-size: 2vw;
+} */
+.navbar{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 500;
+    
+} 
+.boxshadow{
+    box-shadow: none;
+}
+ /* navbar styles */
+.navbar-light,.dropdown-menu{
+    background-color: rgba(22, 34, 57, 0.95);
+    color: white;
+}
+.dropdown-item:hover{
+    border: 2px solid gold;
+    background-color: rgba(22, 34, 57, 0.95);
+    /* color:rgba(22, 34, 57, 0.95); */
+}
+.nav-link,.dropdown-item{
+    border: 2px solid transparent;
+    transition: all 0.6s ease;
+}
+.nav-link:hover{
+    border: 2px solid gold;
+}
+/* bg-color */
+.bg-color{
+   background-color:  rgba(22, 34, 57, 0.85);
+}
+/* carousel styles */
+.caro{
+
+    width: 100%;
+}
+.cacp{
+    background-color: rgba(22, 34, 57, 0.634);
+}
+
+/* courses */
+.courses{
+    background-image: url(/images/choosing-bg.jpg);
+}
+/* accordian */
+.accordion{
+    /* box-shadow: 0 0 15px gray; */
+    border:none !important;
+}
+.accordion-button{
+    background-color: #0c1228 !important;
+    color: white !important;
+    position: relative;
+    box-shadow: none ;
+}
+.accordion-button::after{
+    content: "";
+    background-color: rgb(255, 255, 255);
+ 
+}
+.course-title{
+    /* text-decoration: underline; */
+    border-bottom-style: solid;
+    /* text-decoration-color: white; */
+    border-bottom-color: white;
+    color: gold;
+    /* padding-bottom: 5px; */
+    text-decoration-thickness: 2px;
+    border-bottom-width: 3.2px;
+    width: fit-content;
+}
+.course-image {
+    width: 100%;
+    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+}
+/* upcomming date */
+.upcourses{
+   background-image: url(/images/choosing-bg.jpg);
+}
+/* footer */
+footer{
+    background-color: rgba(22, 34, 57, 0.95);
+}
+.ulh{
+    color: white;
+}
+.ulh:hover{
+    color: gold;
+}
+.social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+.social-links a:hover {
+    background: #149ddd;
+    color: #fff;
+    text-decoration: none;
+  }
+  /* courses in separate page */
+  .txt{
+    text-align: justify;
+  }
+ .c-l {
+    border-right: 2px solid lightgrey;
+ }
+.box{
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+    background-color:  #0c1228;
+    color: white;
+}
+.btn-lg{
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    font-size: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-transform: capitalize;
+}
+.btn-lg:hover{
+    color: #0c1228;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.chevron-right::before{
+    content: '>';
+    color: gold;
+    font-weight: bold;
+    position: absolute;
+    left: 9px; 
+}
+.ul{
+    position: relative;
+}
+/* courses content */
+.od{
+    display: flex;
+    position: relative;
+}
+/* about */
+ .about-us {
+    background-color: #0c1228;
+    z-index: -3;
+    color: white;
+    text-align: justify;
+} 
+/* .about-us .section-title {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+.about-us .content {
+    font-size: 1.1em;
+}
+.about-us .btn-custom {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+}  */
+  /* contact */
+  .contact-us {
+    padding: 50px 0;
+    background-color: #0c1228;
+    color: white;
+}
+.contact-us .section-title {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+.contact-us .form-group {
+    margin-bottom: 20px;
+}
+.contact-us .btn-custom {
+    background-color: gold;
+    color: #0c1228;
+    border: none;
+    padding: 10px 20px;
+}
+.btn-custom:hover{
+    background-color: rgba(255, 217, 0, 0.516);
+}
+/* form design */
+.formdesign{
+    background-color: #0c1228;
+    color: white;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 10px 10px;
+
+}
+.cancel{
+    background-color: #fff;
+}
+.indes{
+    border-radius: 50px;
+    border-left:5px solid gold;
+}
+::placeholder{
+    color: gold;
+}
+.indes:focus{
+    border-left: 5px solid;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-color: #D2042D;
+    box-shadow: none;
+}
+.bstl{
+    background-color: gold;
+    border-radius: 10px;
+    padding: 10px;
+    color: #0c1228;
+    
+}
+.bstl:hover{
+    background-color: rgba(255, 217, 0, 0.547);
+}
+
+/* animination */
+.ani{
+    animation-name: zoom;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    border-radius:20%;
+}
+@keyframes zoom {
+ 0%{
+    transform: scale(0.9);
+ }
+ 50%{
+    transform: scale(1);
+ }
+ 100%{
+    transform: scale(0.9);
+ }
+}
