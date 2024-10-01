@@ -19,7 +19,7 @@
     font-size : 16px;  
 }
 .ig{
-    background-image: url(images/choosing-bg.jpg);
+    background-image: url(/images/choosing-bg.jpg);
     color: white;
 }
 .rating{
@@ -76,7 +76,7 @@
 
 /* courses */
 .courses{
-    background-image: url(images/choosing-bg.jpg);
+    background-image: url(/images/choosing-bg.jpg);
 }
 /* accordian */
 .accordion{
@@ -113,7 +113,7 @@
 }
 /* upcomming date */
 .upcourses{
-   background-image: url(images/choosing-bg.jpg);
+   background-image: url(/images/choosing-bg.jpg);
 }
 /* footer */
 footer{
